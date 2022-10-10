@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box; 
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    color: hsl(225, 100%, 94%);
+}
+  
+body{
+    background: hsl(225, 100%, 94%);
+}
+
+.container{
+    margin: 55px auto;
+    width: 330px;
+    background-color: white;
+    position: relative;
+    border-radius: 15px;
+}
+
+.img1{
+    width: 330px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;     
+}
+
+.section{
+    height: 310px; 
+}
+
+.para1{
+    color: hsl(223, 47%, 23%);
+    position: absolute;
+    top: 175px;
+    left: 100px;
+}
+
+.para2{
+    color: hsl(224, 23%, 55%);
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    top: 220px;
+    left: 60px;
+}
+
+.info-section{
+    position: absolute;
+}
+
+.img2{
+    position: absolute;
+    top: 147px;
+    left: 60px;
+    border-radius: 50%;
+}
+
+.para3{
+    position: absolute;
+    top: 135px;
+    left: 110px;
+    line-height: 1.4;
+    font-size: 12px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.sub-section{
+    color: hsla(224, 23%, 55%, 0.878);
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.para4{
+    position: absolute;
+    top: 145px;
+    left: 240px;
+    font-size: 11px;
+    font-weight: 700; 
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+.para4:hover{
+    color: hsla(245, 75%, 52%, 0.703);
+    text-decoration: none;
+    cursor: pointer;
+}   
+
+.button{
+    position: absolute;
+    top: 375px;
+    left: 40px;
+    font-size: 11px;
+    font-weight: 700; 
+    color: hsl(224, 23%, 55%);
+    border: hsl(245, 75%, 52%);
+    border-radius: 8px;
+    padding: 11px 80px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+
+.button:hover{
+    background-color: hsla(245, 75%, 52%, 0.703);
+    cursor: pointer;
+}
+
+.para5{
+    color: hsl(224, 23%, 55%);
+    position: absolute;
+    top: 415px;
+    left: 125px;
+    font-size: 11px;
+    font-weight: 700; 
+}
+
+.para5:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+@media screen and (min-width) and (max-width) {
+
+}
+
